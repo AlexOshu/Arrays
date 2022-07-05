@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 #define tab "\t"
@@ -60,9 +60,9 @@ void main()
 		cout << endl;
 	}
 	cout << delimiter << endl;
-	int C[ROWS][COLS]{};// Ìàòðèöà - ðåçóëüòàò
+	int C[ROWS][COLS]{};// ÐœÐ°Ñ‚Ñ€Ð¸Ñ†Ð° - Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚
 #ifdef MATRIX_ADDITION
-			// Ïðè ñëîæåíèè äâóõ ìàòðèö À è Â ìû ïîëó÷àåì òðåòüþ ìàòðèöó Ñ.
+			// ÐŸÑ€Ð¸ ÑÐ»Ð¾Ð¶ÐµÐ½Ð¸Ð¸ Ð´Ð²ÑƒÑ… Ð¼Ð°Ñ‚Ñ€Ð¸Ñ† Ð Ð¸ Ð’ Ð¼Ñ‹ Ð¿Ð¾Ð»ÑƒÑ‡Ð°ÐµÐ¼ Ñ‚Ñ€ÐµÑ‚ÑŒÑŽ Ð¼Ð°Ñ‚Ñ€Ð¸Ñ†Ñƒ Ð¡.
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
